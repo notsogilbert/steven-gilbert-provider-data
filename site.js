@@ -1,0 +1,1 @@
+document.getElementById('copyEmail').addEventListener('click',async()=>{const status=document.getElementById('copyStatus');try{await navigator.clipboard.writeText('mackartist@live.com');status.textContent='Email address copied.';}catch{status.textContent='Please copy mackartist@live.com into your preferred email service.';}});
